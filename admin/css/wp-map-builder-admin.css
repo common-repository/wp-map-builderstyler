@@ -1,0 +1,68 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+#map {
+	height: 300px;
+	width: 100%;
+	margin: 10px 0;
+	box-shadow: 0 0 2px #ccc
+	overflow: visible;
+}
+#pac-input {
+	margin: 10px;
+	width: 550px;
+	line-height: 24px;
+	border: none;
+	box-shadow: inset 2px 2px 3px #ccc;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.wmb_box input, .wmb_box textarea {
+	width: 100%;
+	padding: 10px 10px;
+	margin: 0 0 10px 0;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+}
+.wmb_box .inside input , .wmb_box .inside select {
+	margin: 5px 3%;
+	width: 94%;
+}
+.wmb_box .preview.button {
+	margin: 10px 10px 5px 10px;
+}
+.def_map {
+	border: 4px dashed #fff;
+	box-shadow: 1px 1px 3px #ccc;
+	width: 99% !important;
+}
+.wmb_info_page {
+	background: #fff;
+	padding: 5px 10px !important;
+	box-shadow: 1px 1px 3px #ccc;
+	border-radius: 15px;
+}
+.wmb_info_page p {
+	font-size: 15px;
+	color: #777;
+	margin: 10px 0;
+}
+.wp_inp_key {
+	width: 90% !important;
+	float: left;
+	margin-top: 10px !important;
+}
+.wp_sub_key {
+	width: 10% !important;
+	float: left;
+	margin-top: 10px !important;
+	background: #0073aa;
+	border: 1px solid #0073aa !important;
+	color: #fff;
+	font-size: 20px;
+	padding: 6px !important;
+}
